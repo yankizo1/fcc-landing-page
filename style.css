@@ -1,0 +1,135 @@
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  }
+  
+  body {
+    background-color:black;
+    color:white;
+    font-family: space mono;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    /* background: black; */
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    font-size:27px;
+    font-style: oblique;
+  }
+  
+  p {
+    font-size:27px;
+    font-style: oblique;
+  }
+  
+  #welcome-section {
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    text-align:center;
+    background-image:url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__340.jpg")
+  }
+  #projects-title {
+    height: 100px;
+    text-align:center;
+    margin: 10px;
+  }
+  
+  .h1-p {
+    margin-top: 130px;
+    color: aliceblue;
+    text-decoration: underline;
+   }
+  
+  .row {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin:20px;
+  }
+  
+  #projects {
+    /* height:500%; */
+    text-align:center;
+    
+  }
+  
+  .profile-links {
+    display:flex;
+    padding: 5px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  h1.about {
+    text-align: center;
+    font-size: 40px;
+    background-color: chocolate;
+  }
+  
+  
+
+ #items {
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+  }
+  
+  body {
+    background-color: powderblue;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .contact ul {
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  .contact h1 {
+    background-color: chocolate; 
+  }
